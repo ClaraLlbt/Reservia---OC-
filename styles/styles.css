@@ -1,0 +1,23 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+li{
+    margin-left: 2px;
+}
+
+ul li a{
+    text-decoration: none;
+    text-align: right;
+    padding: 25px;
+    color: black;
+}
+
+ul li a:hover{
+    color: #0065FC;
+}
+
+section h3{
+    display: inline-block;
+}
