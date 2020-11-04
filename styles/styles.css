@@ -21,3 +21,26 @@ ul li a:hover{
 section h3{
     display: inline-block;
 }
+
+button{
+    background: #0065FC;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    border: none;
+}
+input{
+    height: 32px;
+    border: none;
+    margin-left: 10px;
+}
+
+
+.Search{
+    background: #F2F2F2;
+    width: max-content;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
