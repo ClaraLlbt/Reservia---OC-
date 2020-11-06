@@ -36,11 +36,51 @@ input{
     border: none;
     margin-left: 10px;
 }
-
-
 .Search{
     background: #F2F2F2;
     width: max-content;
     border-bottom-left-radius: 12px;
     border-top-left-radius: 12px;
+}
+section.Section_1{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 20px;
+}
+div.Hébergements{
+    background-color: #F2F2F2;
+    height: 400px;
+    width: 60%;
+    margin-right: 50px;
+    border-radius: 12px;
+}
+div.populaires{
+    background-color: #F2F2F2;
+    height: 400px;
+    width: 40%;
+    border-radius: 12px;
+}
+.fa-star {
+	color: gray;
+	cursor: pointer;
+    padding: 0.0625rem;
+}
+.fa-star.gold {
+	color: #ffdc0f;
+}
+.rating {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.stars {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 3em;
+}	
+.stars:hover .fa-star {
+    color: #ffdc0f;
+}
+.stars .fa-star:hover ~ .fa-star {
+    color: gray;
 }
