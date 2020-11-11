@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="France">
 
 
 <head>
-
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"/>
 
 </head>
 
 <body>
-
+ 
 <header> 
     <ul id="navigation"> 
         <li><a href="Hébergements">Hébergements</a></li>  
@@ -20,51 +21,122 @@
     <img src="images/logo/Reservia.svg" height="50px" width="100px"/>
 </header>
 
-    <p>Trouver votre hébergement pour des vacances de rêves</p>
+<section class="Section_1">
+    <h3>Trouver votre hébergement pour des vacances de rêves</h3>
+    <p>En plein centre ville ou en pleine nature</p>
     <div class="Search">
         <img src="images/icons/map-marker-alt-solid.svg" height="15px" width="15px">
         <input type="search" placeholder="Marseille, France"><button>Rechercher</button>
     </div>
+</section>
+
+<div class="filtres">
+    <h4>Filtres</h4>
+    <span>
+        <i class="fas fa-money-bill-wave"></i>
+        <p><b>Economique</b></p>
+    </span>
+    <span>
+        <i class="fas fa-child"></i>
+        <p>Familial</p>
+    </span>
+    <span>
+        <i class="fas fa-heart"></i>
+        <p>Romantique</p>
+    </span>
+    <span>
+        <i class="fas fa-dog"></i>
+        <p>Animaux autorisés</p>
+    </span>
+</div>
+<p id="info_circle"> 
+    <i class="fas fa-info-circle"></i>Plus de 5O0 logements dans cette ville
 
 
-    <section class="Section_1">
+</p>
 
-        <div class="Hébergements">
-            <h2 id="Hébergements">Hébergements à Marseille</h2>
+
+
+<section class="Section_2">
+
+    <div class="Hébergements">
+        <h3 id="Hébergements">Hébergements à Marseille</h3>
+
+        <div id="conteneur">
+            <section>
+                <div>
+                    <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" height="150px" width="250px">
+                    <h4>Auberge la Cannebière</h4>
+                    <p>Nuit à partir de <b>25€</b></p>
+                </div>
+
+                <div class="rating">
+                    <a href="#5" title="Donner 5 étoiles">★</a>
+                <a href="#4" title="Donner 4 étoiles">★</a>
+                <a href="#3" title="Donner 3 étoiles">★</a>
+                <a href="#2" title="Donner 2 étoiles">★</a>
+                <a href="#1" title="Donner 1 étoile">★</a>
+            </section>
+            <section>
+                <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" height="150px" width="150px">
+                <div class="rating">
+                    <a href="#5" title="Donner 5 étoiles">★</a>
+                <a href="#4" title="Donner 4 étoiles">★</a>
+                <a href="#3" title="Donner 3 étoiles">★</a>
+                <a href="#2" title="Donner 2 étoiles">★</a>
+                <a href="#1" title="Donner 1 étoile">★</a>
+            </section>
+            <section>
+                <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" height="150px" width="150px">
+                <div class="rating">
+                    <a href="#5" title="Donner 5 étoiles">★</a>
+                <a href="#4" title="Donner 4 étoiles">★</a>
+                <a href="#3" title="Donner 3 étoiles">★</a>
+                <a href="#2" title="Donner 2 étoiles">★</a>
+                <a href="#1" title="Donner 1 étoile">★</a>
+            </section>
+            
+            
+         </div>
+
+
+        </div>
+            
 
             </div>
         </div>
-        <div class="populaires">
-            <h2>Les plus populaires</h2>
-        </div>
+        <aside class="populaires">
+            <h3>Les plus populaires</h3>
+        </aside>
 
     </section>
-    <section>
-            <h2>Activités à Marseille</h2>
+
+    <section class="Section_3">
+            <h3>Activités à Marseille</h3>
     </section>
 
+    <footer>
+        <section>
+            <h3>A propos</h3>
+            <p> Fonctionnement du site</p>
+            <p>Conditions générales de vente</p>
+            <p>Données et confidentialité</p>
+        </section>
+        <section>
+            <h3>Nos hébergements</h3>
+            <p>Charte qualité</p>
+            <p>Soumettre votre hôtel</p>
+        </section>
+        <section>
+            <h3>Assistance</h3>
+            <p>Centre d'aide</p>
+            <p>Nous contacter</p>
+        </section>
+    </footer>
 
 
 </body>
 
 
-<footer>
-    <section>
-        <h3>A propos</h3>
-        <p> Fonctionnement du site</p>
-        <p>Conditions générales de vente</p>
-        <p>Données et confidentialité</p>
-    </section>
-    <section>
-        <h3>Nos hébergements</h3>
-        <p>Charte qualité</p>
-        <p>Soumettre votre hôtel</p>
-    </section>
-    <section>
-        <h3>Assistance</h3>
-        <p>Centre d'aide</p>
-        <p>Nous contacter</p>
-    </section>
-</footer>
 
 </html>
