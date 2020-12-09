@@ -17,6 +17,9 @@ ul{
             color: black;}
             ul li a:hover{
                 color: #0065FC;}
+            #Inscription{
+                color: #0065fc;
+            }
 
     section.Section_1 h2{
         margin: 0px auto 0px 30px;
@@ -33,7 +36,7 @@ div.Search {
     height: 45px;
     border-radius: 15px;
     display: flex;
-    margin: 0px auto 0px 30px;}
+    margin: 0px 0px 0px 30px;}
     input {
         border: none;
         margin: 1px auto;
@@ -58,10 +61,9 @@ div.Search {
 
 
 div.filtres{
-    display: inline-flex;
+    display: flex;
     margin: 20px auto auto 30px;
-    flex-wrap: wrap;
-    width: 100%;}
+    flex-wrap: wrap;}
     div.filtres h4{
         margin-right: 20px;}
         div.filtres div p{
@@ -121,17 +123,17 @@ section.Section_2{
         margin:30px auto;}
     div#Hébergements {
         background-color: #F2F2F2;
-        border-radius: 15px;}
+        border-radius: 20px;}
         div#Hébergements h2{
             margin: 40px 0px 20px 30px;
             font-size: 20px;}
-        div#Hébergements p{
-            margin: 40px auto 40px 35px;}
+        
             div.carte_hébergements{
                 background-color: white;
                 border-radius: 15px;
                 box-shadow: 1px 2px 25px #dfdfdf;
                 margin: 0px 15px 5px 15px;}
+    
                 div.carte_hébergements a{
                     text-decoration: none;
                     color: black;}
@@ -172,9 +174,18 @@ section.Section_2{
             direction: rtl;
             margin: 0px auto 5px 15px;}
 
+        .etoile_grise{
+            color: #F2F2F2;}
+        .etoile_bleue{
+            color: #0065FC;}
+            
+        div.Afficher_plus{
+            margin: auto 20px;
+        }
+        
     aside.populaires{
         background-color: #F2F2F2;
-        border-radius: 12px;
+        border-radius: 20px;
         padding: 0 15px 0 15px;}
         aside.populaires div.lespluspopulaires{
             display: flex;}
@@ -186,15 +197,15 @@ section.Section_2{
                 margin: auto auto 20px 100px;}
     div.carte_populaires a{
         text-decoration: none;
-        color: black;}
+        color: black;
+        display: flex;}
         div.carte_populaires a:hover{
             color: #0065fc;}
         aside.populaires div.carte_populaires{
             margin: auto 20px 30px 20px;
             background-color: white;
             border-radius: 15px;
-            box-shadow: 1px 2px 12px #dfdfdf;
-            display: flex;}
+            box-shadow: 1px 2px 12px #dfdfdf;}
             aside.populaires div p{
                 margin: 10px auto 0px 20px;
                 font-size: 15px;}
@@ -222,6 +233,9 @@ section.Section_2{
                 direction: rtl;
                 margin: 17px auto 5px 20px;}
 
+section#Section_3{
+    margin-left: 10px;
+    margin-right: 10px;}
 section#Section_3 h2 {
     font-size: 20px;
     margin: 20px;}
@@ -229,18 +243,18 @@ section#Section_3 h2 {
         display: flex;
         align-content: center;
         flex-wrap: wrap;
-        margin: 20px;
-        width: 100%;}
+        margin: 20px;}
         section#Section_3 div.carte_activités {
-            border-radius: 15px;
-            box-shadow: 1px 2px 12px #dfdfdf;
-            text-decoration: none;
-            color: black;}
+            border-radius: 20px;
+            box-shadow: 1px 2px 12px #dfdfdf;}
             div.activités{
                 margin:auto;}
             div.carte_activités.Fort_de_Pomègues, div.carte_activités.Notre_Dame{
                 margin-bottom: 35px;}
-        div.carte_activités h4{
+            div.carte_activités a{
+                color: black;
+                text-decoration: none;}
+                div.carte_activités h4{
             display: inline-block;
             margin: 20px;}
         div.carte_activités h4:hover{
@@ -276,12 +290,12 @@ footer{
     background-color: #f2f2f2;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;}
+    margin-top: 60px;}
     footer div{
         margin: 30px 170px 30px 40px;}
 
 
-@media screen and (min-device-width: 375px) and (max-device-width: 667px){
+@media all and (min-width: 375px) and (max-width: 667px){
 header{
 display: inline-block;
 width: 100%;}
@@ -325,7 +339,7 @@ section.Section_1 p{
             border-radius: 15px;
             border: none;
             margin: -4px;}
-            button div{
+            button span{
             display: none;}
             div.Search button i{
                 margin: auto;
@@ -383,13 +397,11 @@ section.Section_2{
     div#Hébergements{
         background-color: white;
         border-radius: 0px;}
-        h2#Hébergements{
+        div#Hébergements h2{
             margin: auto auto 10px 10px;}
             div.square-img{
                 width: auto;}
-            div#Hébergements p{
-               margin: 20px 10px;
-                font-size: 19px;}
+            
     div#conteneur1 div.carte_hébergements, #conteneur2 div.carte_hébergements {
         width: 100%;
         margin: 5px auto;}
@@ -397,18 +409,25 @@ section.Section_2{
             font-size: 15px;}
         section.Section_2 div#Hébergements .rating{
             font-size: 16px;}
+            div.Afficher_plus{
+                margin: 20px 10px;}
 
-
-.Section_3_activités{
+section#Section_3{
     margin: auto;}
+.Section_3_activités{
+    margin: auto 15px;
+    width: auto;}
 section#Section_3 a{
     width: 100%;}
 section#Section_3 h2{
     margin: auto auto 10px 10px;}
     section#Section_3 div.activités{
         width: 100%;}
+        .Vieux_port, .Fort_de_Pomègues, .Iles_du_Fioul, .Parc_Calanques, .Notre_Dame, .Parc_Longchamp{
+            width: 100%;
+            display: inline-flex;}
         section#Section_3 div.carte_activités{
-            margin: 10px 15px;}
+            margin: 10px auto;}
             div.carte_activités h4{
                 font-size: 15px;
                 margin: 15px 20px;}
@@ -423,7 +442,7 @@ footer{
     footer div{
         margin: 20px;}
 }
-@media screen and (min-device-width: 668px) and (max-device-width: 1024px){    
+@media all and (min-width: 668px) and (max-width: 1024px){    
 
 header{
     display: inline-block;
@@ -481,8 +500,9 @@ section.Section_2 {
         border-radius: 0px;
         width: 100%;}
     aside.populaires div.carte_populaires{
-        display: block;
         margin: auto auto 30px auto;}
+    aside.populaires div.carte_populaires a{
+        display: block;}
         div.square-img2{
             width: auto;
             border-bottom-right-radius: 12px;
@@ -509,6 +529,8 @@ section.Section_2 {
             div.square-img.background-img1, div.square-img.background-img2, div.square-img.background-img3, div.square-img.background-img4, div.square-img.background-img5, div.square-img.background-img6{
                 width: 200px;}
 
+section#Section_3{
+    margin: auto;}
 section#Section_3 div.carte_activités{
     height: 230px;
     width: min-content;
