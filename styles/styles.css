@@ -531,6 +531,9 @@ section.Section_2 {
 
 section#Section_3{
     margin: auto;}
+    .Section_3_activités{
+        margin: auto;
+    }
 section#Section_3 div.carte_activités{
     height: 230px;
     width: min-content;
