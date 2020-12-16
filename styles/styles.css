@@ -157,17 +157,17 @@ section.Section_2{
                         border-top-right-radius: 10px;
                         margin: 4px 4px 10px 4px;}
                 div.square-img.background-img1{
-                    background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);}
+                    background-image: url(../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);}
                 div.square-img.background-img2{
-                    background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);}
+                    background-image: url(../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);}
                 div.square-img.background-img3{
-                    background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);}
+                    background-image: url(../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);}
                 div.square-img.background-img4{
-                    background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);}                                
+                    background-image: url(../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);}                                
                 div.square-img.background-img5{
-                    background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);}
+                    background-image: url(../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);}
                 div.square-img.background-img6{
-                    background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);}           
+                    background-image: url(../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);}           
         section.Section_2 div#Hébergements .rating {
             display: flex;
             justify-content: left;
@@ -222,11 +222,11 @@ section.Section_2{
                     border-bottom-left-radius: 12px;
                     margin: 4px 0px 4px 4px;}
                     div.square-img2.background-img1{
-                        background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);}
+                        background-image: url(../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);}
                     div.square-img2.background-img2{
-                        background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);}
+                        background-image: url(../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);}
                     div.square-img2.background-img3{
-                        background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);}
+                        background-image: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);}
             aside.populaires div .rating {
                 display: flex;
                 justify-content: left;
@@ -269,22 +269,22 @@ section#Section_3 h2 {
                 border-top-right-radius: 20px;
                 width: 280px;}
             div.square-img3.background-img1{
-                background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+                background-image: url(../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
                 height: 385px;}
             div.square-img3.background-img2{
-                background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+                background-image: url(../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
                 height: 181px;}
             div.square-img3.background-img3{
-                background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+                background-image: url(../images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
                 height: 110px;}
                 div.square-img3.background-img4{
-                background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+                background-image: url(../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
                 height: 385px;}
                 div.square-img3.background-img5{
-                background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+                background-image: url(../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
                 height: 140px;}
                 div.square-img3.background-img6{
-                background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+                background-image: url(../images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
                 height: 150px;} 
 footer{
     background-color: #f2f2f2;
