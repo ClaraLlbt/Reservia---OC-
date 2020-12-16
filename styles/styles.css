@@ -138,7 +138,7 @@ section.Section_2{
                     text-decoration: none;
                     color: black;}
                     div.carte_hébergements a:hover{
-                        color: #0065fc;}
+                        color: #0065FC;}
         div#conteneur1, #conteneur2 {
             display: flex;
             margin: 0px 20px 30px 20px;
