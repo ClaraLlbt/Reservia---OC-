@@ -3,10 +3,13 @@ body{
 header img{
         margin: 30px;}
 
+nav{
+    display: flex;
+    float: right;
+}
 ul{
     list-style-type: none;
-    display: flex;
-    float: right;}
+    display: flex;}
     ul li{
         padding: 30px 0px 10px 15px;}
 
@@ -138,7 +141,7 @@ section.Section_2{
                     text-decoration: none;
                     color: black;}
                     div.carte_hébergements a:hover{
-                        color: #0065fc;}
+                        color: #0065FC;}
         div#conteneur1, #conteneur2 {
             display: flex;
             margin: 0px 20px 30px 20px;
@@ -157,23 +160,27 @@ section.Section_2{
                         border-top-right-radius: 10px;
                         margin: 4px 4px 10px 4px;}
                 div.square-img.background-img1{
-                    background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);}
+                    background-image: url(../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);}
                 div.square-img.background-img2{
-                    background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);}
+                    background-image: url(../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);}
                 div.square-img.background-img3{
-                    background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);}
+                    background-image: url(../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);}
                 div.square-img.background-img4{
-                    background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);}                                
+                    background-image: url(../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);}                                
                 div.square-img.background-img5{
-                    background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);}
+                    background-image: url(../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);}
                 div.square-img.background-img6{
-                    background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);}           
+                    background-image: url(../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);}           
         section.Section_2 div#Hébergements .rating {
             display: flex;
             justify-content: left;
             direction: rtl;
-            margin: 0px auto 5px 15px;}
+            margin: 5px auto 5px 15px;}
 
+        .stars{
+            margin: 1px;
+            font-size: 10px;
+        }
         .etoile_grise{
             color: #F2F2F2;}
         .etoile_bleue{
@@ -222,16 +229,16 @@ section.Section_2{
                     border-bottom-left-radius: 12px;
                     margin: 4px 0px 4px 4px;}
                     div.square-img2.background-img1{
-                        background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);}
+                        background-image: url(../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);}
                     div.square-img2.background-img2{
-                        background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);}
+                        background-image: url(../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);}
                     div.square-img2.background-img3{
-                        background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);}
+                        background-image: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);}
             aside.populaires div .rating {
                 display: flex;
                 justify-content: left;
                 direction: rtl;
-                margin: 17px auto 5px 20px;}
+                margin: 30px auto 5px 20px;}
 
 section#Section_3{
     margin-left: 10px;
@@ -269,22 +276,22 @@ section#Section_3 h2 {
                 border-top-right-radius: 20px;
                 width: 280px;}
             div.square-img3.background-img1{
-                background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+                background-image: url(../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
                 height: 385px;}
             div.square-img3.background-img2{
-                background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+                background-image: url(../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
                 height: 181px;}
             div.square-img3.background-img3{
-                background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+                background-image: url(../images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
                 height: 110px;}
                 div.square-img3.background-img4{
-                background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+                background-image: url(../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
                 height: 385px;}
                 div.square-img3.background-img5{
-                background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+                background-image: url(../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
                 height: 140px;}
                 div.square-img3.background-img6{
-                background-image: url(file:///C:/Users/Asus/Desktop/P2/HaultcoeurClara-2-02112020/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+                background-image: url(../images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
                 height: 150px;} 
 footer{
     background-color: #f2f2f2;
@@ -295,17 +302,21 @@ footer{
         margin: 30px 170px 30px 40px;}
 
 
-@media all and (min-width: 375px) and (max-width: 667px){
+@media all and (min-width: 320px) and (max-width: 667px){
 header{
 display: inline-block;
 width: 100%;}
     header img{
         position: inherit;
         float: left;}
+    nav{
+        width: 100%;
+    }
     ul#navigation{
         width: 100%;
         text-align: center;
-        font-size: 17px;}
+        font-size: 17px;
+        margin-left: -40px;}
         ul li{
             border-bottom: 2px #F2F2F2 solid;
             padding-bottom: 10px;}
@@ -380,19 +391,17 @@ section.Section_2{
         padding: 0px 0px 20px 0px;
         width: 100%;
         margin: auto;}
-        div.lespluspopulaires h2{
-            margin-left: auto;}
+        aside.populaires div.lespluspopulaires{
+            display: inline-flex;}
         aside.populaires div.carte_populaires{
             margin: 10px 20px;}
-            div.carte_populaires div.Nom_tarif{
-                width: 210px;}
                 aside.populaires div.carte_populaires h4{
                     font-size: 16px;}
                 aside.populaires div.carte_populaires p{
                     margin: 10px auto 0px 20px;}
                 aside.populaires div.carte_populaires .rating {
                     font-size: 16px;
-                    margin: 20px auto 10px 20px;}
+                    margin: 20px 0px 10px 20px;}
     
     div#Hébergements{
         background-color: white;
@@ -450,9 +459,12 @@ header{
     header img{
         position: inherit;
         float: left;}
+        nav{
+            width: 100%;}
         ul#navigation{
             width: 100%;
-            text-align: center;}
+            text-align: center;
+            margin-left: -45px;}
             ul li{
                 border-bottom: 2px #F2F2F2 solid;
                 padding-bottom: 10px;}
@@ -511,7 +523,7 @@ section.Section_2 {
         div.Nom_tarif h4{
             font-size: 17px;}
         aside.populaires div .rating {
-            font-size: 16px;}
+            font-size: 13px;}
 
     div#Hébergements{
     background-color: white;
