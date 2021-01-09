@@ -175,7 +175,7 @@ section.Section_2{
             display: flex;
             justify-content: left;
             direction: rtl;
-            margin: 5px auto 10px 13px;}
+            margin: 5px auto 7px 13px;}
 
         .stars{
             margin: 1px;
@@ -238,7 +238,7 @@ section.Section_2{
                 display: flex;
                 justify-content: left;
                 direction: rtl;
-                margin: 30px auto 5px 18px;}
+                margin: 25px auto 10px 18px;}
 
 section#Section_3{
     margin-left: 10px;
