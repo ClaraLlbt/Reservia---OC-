@@ -175,11 +175,11 @@ section.Section_2{
             display: flex;
             justify-content: left;
             direction: rtl;
-            margin: 5px auto 5px 15px;}
+            margin: 5px auto 10px 13px;}
 
         .stars{
             margin: 1px;
-            font-size: 10px;
+            font-size: 11px;
         }
         .etoile_grise{
             color: #F2F2F2;}
@@ -238,7 +238,7 @@ section.Section_2{
                 display: flex;
                 justify-content: left;
                 direction: rtl;
-                margin: 30px auto 5px 20px;}
+                margin: 30px auto 5px 18px;}
 
 section#Section_3{
     margin-left: 10px;
